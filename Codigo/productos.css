@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+   font-family:'Quicksand',sans-serif;
+    color:#000000;
+  }
+  body {
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+  }
+  
+      /* Estilos cabecera */
+      .container{
+        margin: auto;
+        max-width:1200px;
+        padding: 0 20px;
+        justify-content:space-between;
+      }
+      .img{
+       background-image: url(fotos/texturaazul.avif);
+       background-size:cover;
+       background-repeat:no-repeat;
+       padding: 40px 0 100px;
+       background-attachment: fixed;
+      }
+      .header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+      }
+      a{
+        color:rgb(0, 0, 0);
+        font-weight:700;
+        font-size:15px;
+        font-family:Sans-serif;
+        text-decoration:none;
+        margin-bottom:70px;
+      
+      }
+      .title2{
+        color:white;
+        font-family:'Quicksand',sans-serif;
+        font-size:40px;
+        font-weight:bold;
+      }
+      .introduce{
+       color:#ffffffb3;
+       font-family:'Quicksand',sans-serif;
+       line-height: 1.5;
+       font-size:17px;
+      
+      }
+      
+      
+      .portada {
+      width: 1200px;
+      height: auto;
+      margin-right: auto; 
+      margin-left: auto; 
+      }
+      
+      .logo{
+      width: 400px;
+      height: auto;
+      }
+      
+        /* Estilos barra de navegación */
+        nav a{
+          color: black;
+          font-family:'Quicksand',sans-serif;
+        }
+      nav ul {
+        background-color: #0078D4;
+        overflow: hidden;
+        color:black;
+        padding: 0;
+        text-align: center;
+        margin:0;
+      }
+      
+      nav ul li {
+        display:inline-block;
+        padding: 20px;
+        
+      }
+      
+      nav ul li:hover {
+        background-color: #084574;
+      }
+          /* Estilos artículo principal */
+          article{
+            background-image: url('fotos/texturablanca.avif');
+          }
+          h2{
+            text-align: center;
+        }
+    
+        article img {
+            width: 200px; 
+            height: auto; 
+        }
+        .productoscontainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+          }
+        
+          .productotitulo {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+      
+          .productoprecio{
+            font-weight: bold;
+            color: #333333;
+          }
+
+          .contenedor-imagen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 360px;
+            height: 300px;
+          }
+          .contenedor-imagen img{
+            width: 300px;
+            height: auto;
+            border: 1px solid;
+            border-radius: 30px;
+          }
+
+          .texto-encima {
+            position: absolute;
+            color: black;
+            padding: 50px;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+          }
+          
+        /*Estilos barra lateral*/
+        aside {
+          width: 20%;
+          height: auto;
+          border: 0px solid;
+          border-radius: 30px;
+          background-color: #BDBBBF;
+          float: right;
+          padding: 1em 2em;
+        }  
+        aside img{
+            width: 100%;
+            height: auto;
+        }
+      /* Estilos pie de página */
+      footer {
+        background-image: url('fotos/texturaazul.avif');
+        background-color: #0078D4;
+        color: black;
+        padding: 10px 0;
+        font-family:'Quicksand',sans-serif;
+      }
+      
+      footer img {
+        max-width: 18px; /* Ajusta ancho máximo */
+        max-height: 18px; /* Ajusta alto máximo  */
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .footercolumna {
+        flex-basis: 33%;
+      }
+      
+      .footercolumna h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      
+      .footercolumna ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footercolumna li {
+        margin-bottom: 10px;
+      }
+      
+      .footercolumna a {
+        color: black;
+        text-decoration: none;
+      }
+      
+      .footercolumna a:hover {
+        text-decoration: underline;
+      }
+      

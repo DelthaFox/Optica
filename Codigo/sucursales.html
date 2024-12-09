@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Visión Óptima - Inicio</title>
+    <link rel="stylesheet" href="sucursal.css">
+  </head>
+
+  <header>
+    <div class="img">
+  
+        <div class="container"> 
+         <div class="header"> 
+
+          <img src="fotos/logo.png" alt="Logo de Visión Óptima" class="logo">
+        </div>
+          <div class="start">
+
+            <h1 class="title2">Visión Óptima</h1>
+            <h3 class="introduce"> Abriendo tus ojos al mundo con claridad y excelencia</h3>
+          </div>
+          </div>
+       </div>
+  </header>
+
+      <nav>
+        <ul>
+          <a href="portada.html"><li>Home</li></a>
+          <a href="agendar hora.php"><li>Reserva de horas</li></a>
+          <a href="productos.html"><li>Productos</li></a>
+          <a href="sustentabilidad.html"><li>Sustentabilidad</li></a>
+          <a href="sucursales.html"><li>Sucursales</li></a>
+          <a href="quejas.php"><li>quejas</li></a>
+          <a href="contacto.php"><li>contacto</li></a>
+        </ul>
+      </nav>
+
+  <aside>
+    <img src="fotos/promocion.png"><br>
+  </aside><br><br>
+
+<article>
+  <title>Sucursales optica</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>		
+ <link rel="stylesheet" type="text/css" href="sucursales.css"/>	
+    <!-- lista de sucursales segun coordenadas -->
+ <h1>sucursales</h1>
+ <br><br>
+ <select name="select-location" id="select-location">
+   <option value="-1"><a>Seleccione una de nuestras sucursales:</a></option>
+   <option value="-33.442577, -70.769995">Pudahuel</option>
+   <option value="-33.582874, -70.704997">san Bernardo</option>	
+   <option value="-33.503444, -70.760947">Maipu</option>
+   <option value="-33.375004, -70.644606">Huechuraba</option>
+ </select><br><br>   
+ <div id="map"></div>	
+
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script>   		
+	
+	<script src="mapa.js"></script>
+</article><br><br>
+    <!--el pie de pagina -->
+<footer>
+  <div class="container">
+    <div class="footercolumna">
+      <h4>Contacto</h4>
+      <ul>
+        <li><img src="fotos/wtsp.png" alt="wtsp" class="wtsp"><a>+56945793182</a></li>
+        <li><a>VisionOptima@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footercolumna">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a>Convenios con empresas</a></li>
+        <li><a>Operativos oftalmológicos</a></li>
+        <li><a>Visitas a domicilio</a></li>
+        <li><a>Garantía de 3 meses</a></li>
+      </ul>
+    </div>
+
+    <div class="footercolumna">
+      <h4>Redes sociales</h4>
+      <ul>
+        <li><a><img src="fotos/insta.png" class="insta">INSTAGRAM</a></li>
+        <li><a><img src="fotos/face.png" alt="face" class="face">FACEBOOK</a></li>
+        <li><a><img src="fotos/twitter.png" alt="twitter" class="twitter">TWITTER</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>   
+</html>
